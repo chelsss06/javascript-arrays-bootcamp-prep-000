@@ -31,3 +31,9 @@ function destructivelyAddElementToEndOfArray(chocolateBars, element) {
   return chocolateBars
   
 }
+
+function accessElementInArray(chocolateBars, index) {
+  
+  
+  
+}
