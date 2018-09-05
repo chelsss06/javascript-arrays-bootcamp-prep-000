@@ -18,10 +18,16 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, element) {
 
 function addElementToEndOfArray(chocolateBars, element) {
   
-  [...chocolateBars, element)
+  [...chocolateBars, element]
   
   return chocolateBars
   
 }
 
-
+function destructivelyAddElementToEndOfArray(chocolateBars, element) {
+  
+  chocolateBars.push(element)
+  
+  return chocolateBars
+  
+}
